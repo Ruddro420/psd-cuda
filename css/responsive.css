@@ -1,0 +1,91 @@
+@media(max-width:991px){
+
+    .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(135,80,156,.9);
+    height: 3rem;
+    box-shadow: 0 .3rem .5rem rgba(255,255,255,.9);
+    z-index: 9999;
+}
+.sticky .navbar-toggler {
+    padding: 0rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.navbar img{
+    width: 70%;
+}
+.navbar{
+    padding: 0;
+}
+.navbar-nav{
+    background-color: #000;
+    color: #fff;
+}
+.nav-link{
+
+    color: white;
+    font-size: 1rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+}
+h1 {
+    margin-top: 5rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+.portfolio img{
+    height: 15rem;
+}
+}
+@media(max-width:574px){
+    h1{
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+.contact .message {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.portfolio img{
+    height: 10rem;
+}
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.navbar img{
+    width: 70%;
+}
+.navbar{
+    padding: 0;
+}
+.about .clint-review p{
+    font-size: 1.1rem;
+}
+.about .clint-review h3{
+    font-size: 1.1rem;
+}
+.about .clint-review .role{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.contact input{
+    background:#273a71;
+    border: .1rem solid #273a71;
+    border-radius: 0rem;
+}
+.contact textarea{
+    background:#273a71;
+    border: .1rem solid #273a71;
+    font-size: 1.3rem;
+    border-radius: 0rem;
+}
+}
